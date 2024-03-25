@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}
+.span-rotate {
+  transform: rotate(45deg);
+}
+:root {
+  --main-color: #ee8456;
+}
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+}
+main {
+  background-color: #414040;
+  padding: 15px;
+  width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+main .faq {
+  padding: 10px;
+  border: 1px solid #ee8456;
+  border-radius: 10px;
+}
+main .faq .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+main .faq .header span {
+  font-weight: bolder;
+  font-size: 24px;
+  color: aqua;
+  cursor: pointer;
+}
+main .faq .header h3 {
+  color: white;
+  font-size: 20px;
+}
+main .faq p.ans {
+  line-height: 2;
+  font-size: 16px;
+  color: #9f9696;
+  padding-right: 10px;
+}
